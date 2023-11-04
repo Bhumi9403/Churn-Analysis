@@ -31,7 +31,7 @@ def add_record(request):
 
 
 
-            csv_file_path = 'E:\\powerbi\\Telco-Customer-Churn.csv'
+            csv_file_path = 'C:\\Users\\Yash\\Downloads\\Telco-Customer-Churn.csv'
 
 
             with open(csv_file_path, mode='a', newline='') as csv_file:
@@ -42,7 +42,7 @@ def add_record(request):
                                  ,StreamingTV,StreamingMovies,Contract,PaperlessBilling,
                                  PaymentMethod,MonthlyCharges,TotalCharges,Churn])
 
-            return redirect('success.html')  # Redirect to a success page
+            return redirect('success')  # Redirect to a success page
 
     else:
         form = RecordForm()
