@@ -1,0 +1,25 @@
+from django.db import models
+
+# Create your models here.
+# class RecordForm(models.Model):
+#     customerID =models.CharField('customerID')
+#     gender=models.CharField('gender')
+#     SeniorCitizen=models.IntegerField('SeniorCitizen')
+#     Partner=models.CharField('Partner')
+#     Dependents=models.CharField('Dependents')
+#     tenure=models.IntegerField('tenure')
+#     PhoneService=models.CharField('PhoneService')
+#     MultipleLines=models.CharField('MultipleLines')
+#     InternetService=models.CharField('InternetService')
+#     OnlineSecurity=models.CharField('OnlineSecurity')
+#     OnlineBackup=models.CharField('OnlineBackup')
+#     DeviceProtection=models.CharField('DeviceProtection')
+#     TechSupport=models.CharField('TechSupport')
+#     StreamingTV=models.CharField('StreamingTV')
+#     StreamingMovies=models.CharField('StreamingMovies')
+#     Contract=models.CharField('Contract')
+#     PaperlessBilling=models.CharField('PaperlessBilling')
+#     PaymentMethod=models.CharField('PaymentMethod')
+#     MonthlyCharges=models.IntegerField('MonthlyCharges')
+#     TotalCharges=models.IntegerField('TotalCharges')
+#     Churn=models.CharField('Churn')
